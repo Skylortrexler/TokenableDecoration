@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tokenabledecoration",
+  "version": "1.0.0",
+  "name": "TokenableDecoration",
+  "description": "A decorative expansion to TFaS",
+  "authors": [
+    "Skylor Beck"
+  ],
+  "contact": {
+    "homepage": "https://www.skylorbeck.website",
+    "source": "https://github.com/Skylortrexler/TokenableDecoration",
+    "repo": "https://github.com/Skylortrexler/TokenableDecoration",
+    "issues": "https://github.com/Skylortrexler/TokenableDecoration/issues",
+  },
+  "license": "MIT",
+  "icon": "assets/TokenableDecoration/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "minecraft.skylorbeck.website.tokenabledecoration.client.TokenableDecorationClient"
+    ],
+    "main": [
+      "minecraft.skylorbeck.website.tokenabledecoration.TokenableDecoration"
+    ]
+  },
+  "mixins": [
+    "TokenableDecoration.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
