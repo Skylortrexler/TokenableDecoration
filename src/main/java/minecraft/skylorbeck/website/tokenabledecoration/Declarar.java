@@ -1,5 +1,6 @@
 package minecraft.skylorbeck.website.tokenabledecoration;
 
+import minecraft.skylorbeck.website.tokenabledecoration.blocks.ChandelierBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -21,7 +22,7 @@ public class Declarar {
     public static final Block mossyplank = new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS));
     public static final Item mossyplankitem = new BlockItem(mossyplank,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
 
-    public static final Block chandelier = new Block(FabricBlockSettings.copyOf(Blocks.TORCH));
+    public static final Block chandelier = new ChandelierBlock(FabricBlockSettings.copyOf(Blocks.TORCH));
     public static final Item chandelieritem = new BlockItem(chandelier,new FabricItemSettings().group(ItemGroup.DECORATIONS));
 
     public static final Block bedrockium = new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK));
