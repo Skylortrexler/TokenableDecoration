@@ -3,10 +3,12 @@ package minecraft.skylorbeck.website.tokenabledecoration;
 import minecraft.skylorbeck.website.tokenabledecoration.blocks.ChandelierBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import website.skylorbeck.minecraft.skylorlib.misc.CompressedBlock;
 import website.skylorbeck.minecraft.skylorlib.misc.ExtraPaneBlock;
 
 public class Declarar {
@@ -146,4 +148,24 @@ public class Declarar {
     public static final Item redbricksitem = new BlockItem(redbricks,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Block blackbricks = new Block(FabricBlockSettings.copyOf(Blocks.BRICKS));
     public static final Item blackbricksitem = new BlockItem(blackbricks,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+
+    public static final Block monuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 1);
+    public static final BlockItem monuplecompressedcobblestoneitem = new BlockItem(monuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block couplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 2);
+    public static final BlockItem couplecompressedcobblestoneitem = new BlockItem(couplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block triplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 3);
+    public static final BlockItem triplecompressedcobblestoneitem = new BlockItem(triplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block quadruplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 4);
+    public static final BlockItem quadruplecompressedcobblestoneitem = new BlockItem(quadruplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block quintuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 5);
+    public static final BlockItem quintuplecompressedcobblestoneitem = new BlockItem(quintuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block sextuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 6);
+    public static final BlockItem sextuplecompressedcobblestoneitem = new BlockItem(sextuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block septuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 7);
+    public static final BlockItem septuplecompressedcobblestoneitem = new BlockItem(septuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block octuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 8);
+    public static final BlockItem octuplecompressedcobblestoneitem = new BlockItem(octuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Block nonuplecompressedcobblestone = new CompressedBlock(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).breakByTool(FabricToolTags.PICKAXES), 9);
+    public static final BlockItem nonuplecompressedcobblestoneitem = new BlockItem(nonuplecompressedcobblestone, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+
 }

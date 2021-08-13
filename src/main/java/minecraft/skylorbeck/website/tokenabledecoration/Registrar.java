@@ -143,6 +143,25 @@ public class Registrar {
         regItem("redbricks",Declarar.redbricksitem,MODID);
         regBlock("blackbricks",Declarar.blackbricks,MODID);
         regItem("blackbricks",Declarar.blackbricksitem,MODID);
+
+        regBlock("monuplecompressedcobblestone", Declarar.monuplecompressedcobblestone,MODID);
+        regItem("monuplecompressedcobblestone", Declarar.monuplecompressedcobblestoneitem,MODID);
+        regBlock("couplecompressedcobblestone", Declarar.couplecompressedcobblestone,MODID);
+        regItem("couplecompressedcobblestone", Declarar.couplecompressedcobblestoneitem,MODID);
+        regBlock("triplecompressedcobblestone", Declarar.triplecompressedcobblestone,MODID);
+        regItem("triplecompressedcobblestone", Declarar.triplecompressedcobblestoneitem,MODID);
+        regBlock("quadruplecompressedcobblestone", Declarar.quadruplecompressedcobblestone,MODID);
+        regItem("quadruplecompressedcobblestone", Declarar.quadruplecompressedcobblestoneitem,MODID);
+        regBlock("quintuplecompressedcobblestone", Declarar.quintuplecompressedcobblestone,MODID);
+        regItem("quintuplecompressedcobblestone", Declarar.quintuplecompressedcobblestoneitem,MODID);
+        regBlock("sextuplecompressedcobblestone", Declarar.sextuplecompressedcobblestone,MODID);
+        regItem("sextuplecompressedcobblestone", Declarar.sextuplecompressedcobblestoneitem,MODID);
+        regBlock("septuplecompressedcobblestone", Declarar.septuplecompressedcobblestone,MODID);
+        regItem("septuplecompressedcobblestone", Declarar.septuplecompressedcobblestoneitem,MODID);
+        regBlock("octuplecompressedcobblestone", Declarar.octuplecompressedcobblestone,MODID);
+        regItem("octuplecompressedcobblestone", Declarar.octuplecompressedcobblestoneitem,MODID);
+        regBlock("nonuplecompressedcobblestone", Declarar.nonuplecompressedcobblestone,MODID);
+        regItem("nonuplecompressedcobblestone", Declarar.nonuplecompressedcobblestoneitem,MODID);
     }
 
 }
