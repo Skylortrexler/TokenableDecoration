@@ -42,7 +42,7 @@ public class Declarar {
     public static final Block glowingglass = new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS).luminance((state) -> 14));
     public static final Item glowingglassitem = new BlockItem(glowingglass,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Block glowingglasspane = new ExtraPaneBlock(FabricBlockSettings.copyOf(Blocks.GLASS_PANE).luminance((state) -> 14));
-    public static final Item glowingglasspaneitem = new BlockItem(glowingglass,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Item glowingglasspaneitem = new BlockItem(glowingglasspane,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Block squareglass = new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS));
     public static final Item squareglassitem = new BlockItem(squareglass,new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Block glassbrick = new GlassBlock(FabricBlockSettings.copyOf(Blocks.GLASS));
