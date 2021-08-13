@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "lit=false": {
       "model": "tokenabledecoration:block/lightblueredstonelamp"
+    },
+    "lit=true": {
+      "model": "tokenabledecoration:block/lightblueredstonelampon"
     }
   }
 }

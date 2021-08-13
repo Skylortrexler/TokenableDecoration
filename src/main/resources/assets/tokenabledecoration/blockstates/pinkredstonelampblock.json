@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "lit=false": {
       "model": "tokenabledecoration:block/pinkredstonelamp"
+    },
+    "lit=true": {
+      "model": "tokenabledecoration:block/pinkredstonelampon"
     }
   }
 }
