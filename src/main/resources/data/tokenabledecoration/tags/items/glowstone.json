@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glowstone",
+    "tokenabledecoration:whiteglowstoneitem",
+    "tokenabledecoration:orangeglowstoneitem",
+    "tokenabledecoration:magentaglowstoneitem",
+    "tokenabledecoration:lightblueglowstoneitem",
+    "tokenabledecoration:yellowglowstoneitem",
+    "tokenabledecoration:limeglowstoneitem",
+    "tokenabledecoration:pinkglowstoneitem",
+    "tokenabledecoration:grayglowstoneitem",
+    "tokenabledecoration:lightgrayglowstoneitem",
+    "tokenabledecoration:cyanglowstoneitem",
+    "tokenabledecoration:purpleglowstoneitem",
+    "tokenabledecoration:blueglowstoneitem",
+    "tokenabledecoration:brownglowstoneitem",
+    "tokenabledecoration:greenglowstoneitem",
+    "tokenabledecoration:redglowstoneitem",
+    "tokenabledecoration:blackglowstoneitem"
+  ]
+}

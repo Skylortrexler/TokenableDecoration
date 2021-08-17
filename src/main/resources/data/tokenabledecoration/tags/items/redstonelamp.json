@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:redstone_lamp",
+    "tokenabledecoration:whiteredstonelampitem",
+    "tokenabledecoration:orangeredstonelampitem",
+    "tokenabledecoration:magentaredstonelampitem",
+    "tokenabledecoration:lightblueredstonelampitem",
+    "tokenabledecoration:yellowredstonelampitem",
+    "tokenabledecoration:limeredstonelampitem",
+    "tokenabledecoration:pinkredstonelampitem",
+    "tokenabledecoration:grayredstonelampitem",
+    "tokenabledecoration:lightgrayredstonelampitem",
+    "tokenabledecoration:cyanredstonelampitem",
+    "tokenabledecoration:purpleredstonelampitem",
+    "tokenabledecoration:blueredstonelampitem",
+    "tokenabledecoration:brownredstonelampitem",
+    "tokenabledecoration:greenredstonelampitem",
+    "tokenabledecoration:redredstonelampitem",
+    "tokenabledecoration:blackredstonelampitem"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tokenabledecoration:monuplecompressedcobblestoneitem"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cobblestone",
+        "count": 9
+    }
+}

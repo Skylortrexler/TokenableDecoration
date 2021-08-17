@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:limeredstonelampitem",
+    "count": 8
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glass",
+    "tokenabledecoration:glowingglassitem",
+    "tokenabledecoration:hardenedglassitem",
+    "tokenabledecoration:squareglassitem",
+    "tokenabledecoration:glassbrickitem",
+    "tokenabledecoration:obsidianglassitem"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:pinkglowstoneitem",
+    "count": 8
+  }
+}

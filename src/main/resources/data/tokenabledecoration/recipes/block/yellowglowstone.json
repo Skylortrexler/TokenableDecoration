@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "tag": "tokenabledecoration:glowstone"
+    },{
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:yellowglowstoneitem",
+    "count": 8
+  }
+}

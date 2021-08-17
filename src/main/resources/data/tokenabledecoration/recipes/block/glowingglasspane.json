@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tokenabledecoration:glowingglassitem"
+    },{
+      "item": "tokenabledecoration:glowingglassitem"
+    },{
+      "item": "tokenabledecoration:glowingglassitem"
+    },{
+      "item": "tokenabledecoration:glowingglassitem"
+    },{
+      "item": "tokenabledecoration:glowingglassitem"
+    },{
+      "item": "tokenabledecoration:glowingglassitem"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:glowingglasspaneitem",
+    "count": 16
+  }
+}

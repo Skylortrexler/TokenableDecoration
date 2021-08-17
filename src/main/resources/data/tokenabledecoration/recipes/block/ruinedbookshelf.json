@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bookshelf"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:ruinedbookshelfitem",
+    "count": 1
+  }
+}

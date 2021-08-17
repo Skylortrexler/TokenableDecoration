@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:bone_block"
+    }
+  },
+  "result": {
+    "item": "tokenabledecoration:marrowlessboneitem",
+    "count": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tokenabledecoration:quintuplecompressedcobblestoneitem"
+        }
+    ],
+    "result": {
+        "item": "tokenabledecoration:quadruplecompressedcobblestoneitem",
+        "count": 9
+    }
+}

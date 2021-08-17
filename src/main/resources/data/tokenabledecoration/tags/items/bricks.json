@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bricks",
+    "tokenabledecoration:whitebricksitem",
+    "tokenabledecoration:orangebricksitem",
+    "tokenabledecoration:magentabricksitem",
+    "tokenabledecoration:lightbluebricksitem",
+    "tokenabledecoration:yellowbricksitem",
+    "tokenabledecoration:limebricksitem",
+    "tokenabledecoration:pinkbricksitem",
+    "tokenabledecoration:graybricksitem",
+    "tokenabledecoration:lightgraybricksitem",
+    "tokenabledecoration:cyanbricksitem",
+    "tokenabledecoration:purplebricksitem",
+    "tokenabledecoration:bluebricksitem",
+    "tokenabledecoration:brownbricksitem",
+    "tokenabledecoration:greenbricksitem",
+    "tokenabledecoration:redbricksitem",
+    "tokenabledecoration:blackbricksitem"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "item": "minecraft:gray_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:grayredstonelampitem",
+    "count": 8
+  }
+}

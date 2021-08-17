@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "item": "minecraft:green_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:greenbricksitem",
+    "count": 8
+  }
+}

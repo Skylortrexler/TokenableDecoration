@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "tokenabledecoration:triplecompressedcobblestoneitem"
+        }
+    },
+    "result": {
+        "item": "tokenabledecoration:quadruplecompressedcobblestoneitem",
+        "count": 1
+    }
+}

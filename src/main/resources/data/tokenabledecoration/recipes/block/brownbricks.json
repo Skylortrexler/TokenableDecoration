@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "tag": "tokenabledecoration:bricks"
+    },{
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:brownbricksitem",
+    "count": 8
+  }
+}

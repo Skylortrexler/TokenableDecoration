@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "tag": "tokenabledecoration:redstonelamp"
+    },{
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:orangeredstonelampitem",
+    "count": 8
+  }
+}

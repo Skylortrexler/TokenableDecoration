@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "tag": "tokenabledecoration:glass"
+    },{
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:glowingglassitem",
+    "count": 8
+  }
+}

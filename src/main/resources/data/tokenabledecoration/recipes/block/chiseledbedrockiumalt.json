@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tokenabledecoration:bedrockiumbrickitem"
+  },
+  "result": "tokenabledecoration:chiseledbedrockiumitem",
+  "count": 1
+}

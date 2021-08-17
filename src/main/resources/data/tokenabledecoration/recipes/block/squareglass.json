@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "tokenabledecoration:glass"
+  },
+  "result": "tokenabledecoration:squareglassitem",
+  "count": 1
+}
