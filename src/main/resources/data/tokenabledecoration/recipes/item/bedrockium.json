@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tokenabledecoration:bedrockiumitem"
+    }
+  ],
+  "result": {
+    "item": "tokenabledecoration:bedrockiumingotitem",
+    "count": 9
+  }
+}

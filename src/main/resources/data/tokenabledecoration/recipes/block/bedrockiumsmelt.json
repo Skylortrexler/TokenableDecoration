@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tokenabledecoration:octuplecompressedcobblestoneitem"
+  },
+  "result": "tokenabledecoration:bedrockiumitem",
+  "experience": 3,
+  "cookingtime": 1600
+}

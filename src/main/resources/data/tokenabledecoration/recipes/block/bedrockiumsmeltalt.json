@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "tokenabledecoration:octuplecompressedcobblestoneitem"
+  },
+  "result": "tokenabledecoration:bedrockiumitem",
+  "experience": 3,
+  "cookingtime": 800
+}
