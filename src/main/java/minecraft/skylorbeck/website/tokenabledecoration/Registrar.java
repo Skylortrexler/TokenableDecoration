@@ -17,8 +17,21 @@ public class Registrar {
         regBlock("glowingobsidian",Declarar.glowingobsidian,MODID);
         regItem("glowingobsidian",Declarar.glowingobsidianitem,MODID);
 
-        regBlock("mossyplank",Declarar.mossyplank,MODID);
-        regItem("mossyplank",Declarar.mossyplankitem,MODID);
+        regBlock("ruinedbookshelf",Declarar.ruinedbookshelf,MODID);
+        regItem("ruinedbookshelf",Declarar.ruinedbookshelfitem,MODID);
+
+        regBlock("oakmossyplank",Declarar.oakmossyplank,MODID);
+        regItem("oakmossyplank",Declarar.oakmossyplankitem,MODID);
+        regBlock("sprucemossyplank",Declarar.sprucemossyplank,MODID);
+        regItem("sprucemossyplank",Declarar.sprucemossyplankitem,MODID);
+        regBlock("birchmossyplank",Declarar.birchmossyplank,MODID);
+        regItem("birchmossyplank",Declarar.birchmossyplankitem,MODID);
+        regBlock("junglemossyplank",Declarar.junglemossyplank,MODID);
+        regItem("junglemossyplank",Declarar.junglemossyplankitem,MODID);
+        regBlock("acaciamossyplank",Declarar.acaciamossyplank,MODID);
+        regItem("acaciamossyplank",Declarar.acaciamossyplankitem,MODID);
+        regBlock("darkoakmossyplank",Declarar.darkoakmossyplank,MODID);
+        regItem("darkoakmossyplank",Declarar.darkoakmossyplankitem,MODID);
 
         regBlock("chandelier",Declarar.chandelier,MODID);
         regItem("chandelier",Declarar.chandelieritem,MODID);

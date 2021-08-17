@@ -31,9 +31,5 @@ public class TokenableDecoration implements ModInitializer {
 //todo
 // cook octcobble to make bedrockium
 // smoothstone brick in stonecutter - 1 hour
-// textures
-// blockstates
-// models
-// item models
 // drop tables
-//
+// recipes

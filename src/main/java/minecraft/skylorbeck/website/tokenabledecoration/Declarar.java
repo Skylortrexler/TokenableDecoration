@@ -29,8 +29,20 @@ public class Declarar {
     public static final Block glowingobsidian = new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance((state) -> 14));
     public static final Item glowingobsidianitem = new BlockItem(glowingobsidian,new FabricItemSettings().group(tokenableDecor));
 
-    public static final Block mossyplank = new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS));
-    public static final Item mossyplankitem = new BlockItem(mossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block ruinedbookshelf = new Block(FabricBlockSettings.copyOf(Blocks.BOOKSHELF));
+    public static final Item ruinedbookshelfitem = new BlockItem(ruinedbookshelf,new FabricItemSettings().group(tokenableDecor));
+    public static final Block oakmossyplank = new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS));
+    public static final Item oakmossyplankitem = new BlockItem(oakmossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block sprucemossyplank = new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS));
+    public static final Item sprucemossyplankitem = new BlockItem(sprucemossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block birchmossyplank = new Block(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS));
+    public static final Item birchmossyplankitem = new BlockItem(birchmossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block junglemossyplank = new Block(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS));
+    public static final Item junglemossyplankitem = new BlockItem(junglemossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block acaciamossyplank = new Block(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS));
+    public static final Item acaciamossyplankitem = new BlockItem(acaciamossyplank,new FabricItemSettings().group(tokenableDecor));
+    public static final Block darkoakmossyplank = new Block(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS));
+    public static final Item darkoakmossyplankitem = new BlockItem(darkoakmossyplank,new FabricItemSettings().group(tokenableDecor));
 
     public static final Block chandelier = new ChandelierBlock(FabricBlockSettings.copyOf(Blocks.TORCH));
     public static final Item chandelieritem = new BlockItem(chandelier,new FabricItemSettings().group(tokenableDecor));
