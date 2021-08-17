@@ -1,7 +1,77 @@
 {
-  "variants": {
-    "": {
-      "model": "tokenabledecoration:block/glowingglasspane"
+  "multipart": [
+    {
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanepost"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspaneside"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspaneside",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanesidealt"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanesidealt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanenoside"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanenosidealt"
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanenosidealt",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "tokenabledecoration:block/glowingglasspanenoside",
+        "y": 270
+      }
     }
-  }
+  ]
 }

@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "tokenabledecoration:block/marrowlessbone",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "tokenabledecoration:block/marrowlessbone"
+    },
+    "axis=z": {
+      "model": "tokenabledecoration:block/marrowlessbone",
+      "x": 90
     }
   }
 }

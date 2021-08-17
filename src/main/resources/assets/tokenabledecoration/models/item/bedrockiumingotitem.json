@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tokenabledecoration:block/glowingglass"
+    "layer0": "tokenabledecoration:item/bedrockiumingot"
   }
 }

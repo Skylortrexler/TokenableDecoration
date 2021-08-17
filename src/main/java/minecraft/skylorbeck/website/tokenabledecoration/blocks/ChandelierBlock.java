@@ -1,5 +1,6 @@
 package minecraft.skylorbeck.website.tokenabledecoration.blocks;
 
+import minecraft.skylorbeck.website.tokenabledecoration.Declarar;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -17,7 +18,7 @@ public class ChandelierBlock extends Block {
     public boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         BlockPos blockPos = pos.up();
         BlockState blockState = world.getBlockState(blockPos);
-        return !blockState.isOf(Blocks.WATER) && !blockState.isOf(Blocks.AIR) && !blockState.isOf(Blocks.LAVA);
+        return !blockState.isOf(Blocks.WATER) && !blockState.isOf(Blocks.AIR) && !blockState.isOf(Blocks.LAVA) && blockState.isSolidBlock(world,blockPos) ;
     }
 
     public boolean isTranslucent(BlockState state, BlockView world, BlockPos pos) {
