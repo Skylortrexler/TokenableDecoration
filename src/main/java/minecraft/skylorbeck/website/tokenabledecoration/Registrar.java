@@ -1,5 +1,7 @@
 package minecraft.skylorbeck.website.tokenabledecoration;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.impl.content.registry.FuelRegistryImpl;
 import website.skylorbeck.minecraft.skylorlib.SkylorLib;
 
 import static website.skylorbeck.minecraft.skylorlib.Registrar.*;
@@ -19,6 +21,7 @@ public class Registrar {
 
         regBlock("ruinedbookshelf",Declarar.ruinedbookshelf,MODID);
         regItem("ruinedbookshelf",Declarar.ruinedbookshelfitem,MODID);
+        FuelRegistryImpl.INSTANCE.add(Declarar.ruinedbookshelfitem,300);
 
         regBlock("oakmossyplank",Declarar.oakmossyplank,MODID);
         regItem("oakmossyplank",Declarar.oakmossyplankitem,MODID);
@@ -32,6 +35,12 @@ public class Registrar {
         regItem("acaciamossyplank",Declarar.acaciamossyplankitem,MODID);
         regBlock("darkoakmossyplank",Declarar.darkoakmossyplank,MODID);
         regItem("darkoakmossyplank",Declarar.darkoakmossyplankitem,MODID);
+        FuelRegistryImpl.INSTANCE.add(Declarar.oakmossyplankitem,300);
+        FuelRegistryImpl.INSTANCE.add(Declarar.sprucemossyplankitem,300);
+        FuelRegistryImpl.INSTANCE.add(Declarar.birchmossyplankitem,300);
+        FuelRegistryImpl.INSTANCE.add(Declarar.junglemossyplankitem,300);
+        FuelRegistryImpl.INSTANCE.add(Declarar.acaciamossyplankitem,300);
+        FuelRegistryImpl.INSTANCE.add(Declarar.darkoakmossyplankitem,300);
 
         regBlock("chandelier",Declarar.chandelier,MODID);
         regItem("chandelier",Declarar.chandelieritem,MODID);
