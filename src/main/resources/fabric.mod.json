@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "tokenabledecoration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "TokenableDecoration",
   "description": "A decorative expansion to TFaS",
   "authors": [
@@ -14,7 +14,7 @@
     "issues": "https://github.com/Skylortrexler/TokenableDecoration/issues"
   },
   "license": "LGPL-3.0",
-  "icon": "assets/TokenableDecoration/icon.png",
+  "icon": "assets/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -30,6 +30,6 @@
   "depends": {
     "fabricloader": ">=0.11.6",
     "fabric": "*",
-    "minecraft": "1.17.1"
+    "minecraft": "1.18.1"
   }
 }
